@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Noto Sans";
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.header {
+  min-height: 1175px;
+  background: url("./images/photo1.png");
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  padding-top: 53px;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 618px) {
+  .header-menu {
+    flex-direction: column;
+    gap: 22px;
+  }
+}
+
+.header-link {
+  text-decoration: none;
+  color: #c6c0c0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.header-links {
+  display: flex;
+  gap: 55px;
+}
+
+@media (max-width: 370px) {
+  .header-links {
+    flex-direction: column;
+    gap: 17px;
+    text-align: center;
+  }
+}
+
+.card-header {
+  width: 24px;
+  height: 26px;
+}
+
+.services {
+  max-width: 867px;
+  margin-top: 138px;
+}
